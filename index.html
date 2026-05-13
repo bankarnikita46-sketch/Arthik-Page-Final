@@ -45,6 +45,11 @@ body{
     --theme-border:#f3c7d3;
 }
 
+.main-container{
+    width:95%;
+    max-width:1350px;
+    margin:auto;
+}
 /* ================= MAIN ================= */
 
 .main-wrapper{
@@ -89,6 +94,7 @@ body{
     font-size:34px;
     flex-shrink:0;
     margin-left: 2px;
+    margin-top: 20px;
 }
 
 .page-title{
@@ -96,7 +102,7 @@ body{
     font-weight:700;
     margin-bottom:6px;
     line-height:1.2; 
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .page-subtitle{
@@ -357,6 +363,7 @@ body{
 .filter-box .row{
     align-items:flex-end;
 }
+
 /* ================= RESPONSIVE ================= */
 
 @media(max-width:992px){
@@ -542,7 +549,7 @@ body{
 
 <body>
 <div id="header"></div>
-
+<div class="main-container">
 <!-- Page Header -->
 <div class="page-header">
 
@@ -996,6 +1003,7 @@ PDF
 
 </div>
 
+</div>
 </div>
 <!-- FOOTER FILE LOAD -->
 <div id="footer"></div>
